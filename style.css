@@ -1,0 +1,38 @@
+body {
+    color: red;
+    background-image: url(./images/spicy.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    height: 100vh;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.kittenImages {
+    width: 300px;
+    height: 300px;
+    opacity: 0.7;
+}
+header > h1 {
+    color: rgba(16, 13, 186, 0.641);
+}
+#headerImage {
+    border-radius: 50%;
+}
+.sub-header {
+    color: rgba(149, 20, 61, 0.674);
+}
+li, p {
+    color: rgb(0, 220, 59)
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
